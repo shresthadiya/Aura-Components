@@ -1,0 +1,6 @@
+<aura:component>
+    <aura:attribute name = "Var3" type = "String"/>
+    <aura:handler name = "init" value = "{!this}" action = "{!c.doInit}"/>
+    
+    <h1>Component Attribute's Value : {!v.Var3}</h1>
+</aura:component>

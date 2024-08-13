@@ -1,0 +1,4 @@
+<aura:component>
+    <aura:attribute name = "Var1" type = "String" default = "Value from LCDemo1"/>
+    <h1>Component Attribute's Value : {!v.Var1}</h1>  
+</aura:component>

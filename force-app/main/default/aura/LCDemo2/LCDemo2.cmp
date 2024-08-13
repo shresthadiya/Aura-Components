@@ -1,0 +1,3 @@
+<aura:component>
+    <c:LCDemo1Dup Var2 = "Value from LCDemo1Dup"/>
+</aura:component>

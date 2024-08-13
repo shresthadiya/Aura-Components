@@ -1,0 +1,4 @@
+<aura:component>
+    <aura:attribute name = "Var2" type = "String"/>
+    <h1>Component Attribute's Value : {!v.Var2}</h1>  
+</aura:component>
