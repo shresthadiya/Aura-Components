@@ -1,0 +1,4 @@
+<aura:component >
+	<p>This is the first line from Lightning Component</p>
+    <p>First ever hands-on on Aura Components</p>
+</aura:component>

@@ -1,0 +1,6 @@
+<aura:component >
+	<p>This is the second line from Lightning Component</p>
+    <c:DemoComp>
+        <p>Nested DemoComp inside of DemoComp1</p>
+    </c:DemoComp>
+</aura:component>
