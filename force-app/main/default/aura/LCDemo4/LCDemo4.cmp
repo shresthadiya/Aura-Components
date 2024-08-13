@@ -4,4 +4,10 @@
     
     <aura:attribute name = "newAcc" type = "Account" default = "{'sobjectype' : 'Account', 'Name' : 'TestAcc1'}"/>
     <h1>{!v.newAcc.Name}</h1>
+    
+    <aura:attribute name = "arrayDemo" type = "String[]" default = "['v1', 'v2', 'v3']"/>
+    <h1>Array Values : {!v.arrayDemo[0]} {!v.arrayDemo[1]} {!v.arrayDemo[2]}</h1>
+    
+    <aura:attribute name = "listDemo" type = "List" default = "['List1', 'List2', 'List3']"/>
+    <h1>List Values : {!v.listDemo[0]} {!v.listDemo[1]} {!v.listDemo[2]}</h1>
 </aura:component>
