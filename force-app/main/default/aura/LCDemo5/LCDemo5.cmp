@@ -18,6 +18,6 @@
     Button : {!v.Message1}
     <br/>
     <lightning:button label = "Click Me" onclick = "{!c.handleClick}"/>
-    <br/>
+    <br/><br/>
     <lightning:button label = "Click Me Also" onclick = "{!c.handleClick}"/>
 </aura:component>

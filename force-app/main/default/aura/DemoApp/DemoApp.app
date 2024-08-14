@@ -15,4 +15,7 @@
     
     <hr/>
     <c:LCDemo5/>
+    
+    <hr/>
+    <c:unboundedParent/>
 </aura:application>
