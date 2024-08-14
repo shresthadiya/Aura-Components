@@ -24,7 +24,11 @@
     <aura:attribute name = "mapDemo" type = "Map" default = "{a : 'Map1', b : 'Map2', c: 'Map3'}"/>
     <h1>Map Values : {!v.mapDemo.a} {!v.mapDemo.b} {!v.mapDemo.c}</h1>
     <hr/>
-    
+     
     <aura:attribute name = "jsObject" type = "Object"/>
     <h1>Object Value : {!v.jsObject.name} - {!v.jsObject.email}</h1>
+    <hr/>
+    
+    <aura:attribute name = "userData" type = "LCDemoWrapper.WrapperTest"/>
+    <h1>userData Value : {!v.userData.myString1} - {!v.userData.myInteger1}</h1>
 </aura:component>
