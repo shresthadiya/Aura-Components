@@ -1,6 +1,23 @@
 <aura:component>
-    <aura:attribute name = "Message" type = "String"/>
-    Hello : {!v.Message}
+    <aura:handler name = "init" value = "{!this}" action = "{!c.doInit}"/>
+   
+    <!--
+    <aura:attribute name = "Message1" type = "String"/>
+    Button 1 : {!v.Message1}
+    <br/>
+    <lightning:button label = "Click Me" onclick = "{!c.handleClick}"/>   
+    <br/>
+    <aura:attribute name = "Message2" type = "String"/>
+    Button 2 : {!v.Message2}
+    <br/>
+    <lightning:button label = "Click Me Also" onclick = "{!c.anotherhandleClick}"/>
+    -->
+    
+    <aura:attribute name = "Message1" type = "String"/>
+    <aura:attribute name = "Message2" type = "String"/>
+    Button : {!v.Message1}
     <br/>
     <lightning:button label = "Click Me" onclick = "{!c.handleClick}"/>
+    <br/>
+    <lightning:button label = "Click Me Also" onclick = "{!c.handleClick}"/>
 </aura:component>
