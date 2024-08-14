@@ -12,4 +12,7 @@
     
     <hr/>
     <c:LCDemo4/>
+    
+    <hr/>
+    <c:LCDemo5/>
 </aura:application>

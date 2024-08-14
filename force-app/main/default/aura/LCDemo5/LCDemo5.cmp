@@ -1,0 +1,6 @@
+<aura:component>
+    <aura:attribute name = "Message" type = "String"/>
+    Hello : {!v.Message}
+    <br/>
+    <lightning:button label = "Click Me" onclick = "{!c.handleClick}"/>
+</aura:component>
