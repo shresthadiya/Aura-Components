@@ -18,4 +18,7 @@
     
     <hr/>
     <c:unboundedParent/>
+    
+    <hr/>
+    <c:boundedParent/>
 </aura:application>
