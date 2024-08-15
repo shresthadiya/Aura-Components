@@ -21,4 +21,7 @@
     
     <hr/>
     <c:boundedParent/>
+    
+    <hr/>
+    <c:accountLC/>
 </aura:application>
