@@ -24,4 +24,7 @@
     
     <hr/>
     <c:accountLC/>
+    
+    <hr/>
+    <c:validation/>
 </aura:application>
