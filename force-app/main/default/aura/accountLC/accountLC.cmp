@@ -1,4 +1,4 @@
-<aura:component controller = "AccountController">
+<aura:component controller = "AccountController" implements = "flexipage:availableForRecordHome,force:hasRecordId" access = "global">
     <aura:attribute name = "accList" type = "List"/>
     <aura:handler name = "init" value = "{!this}" action = "{!c.doInit}"/>
     
