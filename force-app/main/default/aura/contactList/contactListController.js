@@ -11,17 +11,19 @@
         action.setParams({
             recordId: component.get("v.recordId")
         });
-        action.setCallback(this, function(data){
-            component.set("v.Contacts", data.getReturnValue());
-        });
-        $A.enqueueAction(action);
-
-        //action.setCallback(this, function(response){
-            //var state = response.getState();
-            //if(state === "SUCCESS"){
-                //component.set("v.Contacts", response.getReturnValue());
-            //}
+        //action.setCallback(this, function(data){
+           // component.set("v.Contacts", data.getReturnValue());
         //});
         //$A.enqueueAction(action);
+
+        action.setCallback(this, function(response){
+            var state = response.getState();
+            console.log(state);
+            if(state === "SUCCESS"){
+                console.log(response.getReturnValue());
+                component.set("v.Contacts", response.getReturnValue());
+            }
+        });
+        $A.enqueueAction(action);
 	}
 })
