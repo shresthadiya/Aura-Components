@@ -27,4 +27,7 @@
     
     <hr/>
     <c:validation/>
+    
+    <hr/>
+    <c:dateValidation/>
 </aura:application>
