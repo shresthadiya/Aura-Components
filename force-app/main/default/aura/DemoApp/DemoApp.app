@@ -30,4 +30,7 @@
     
     <hr/>
     <c:dateValidation/>
+    
+    <hr/>
+    <c:conditionApply/>
 </aura:application>
