@@ -33,4 +33,7 @@
     
     <hr/>
     <c:conditionApply/>
+    
+    <hr/>
+    <c:dynamicComponent/>
 </aura:application>
